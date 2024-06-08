@@ -3,6 +3,26 @@ html {
   width: 100%;
 }
 
+nav {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5px;
+}
+nav a {
+  background-color: red;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
 footer {
   text-align: center;
   font-size: x-small;
